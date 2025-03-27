@@ -5,7 +5,6 @@
 # are looking for in a blame, such as mass reformatting or renaming.
 # You can set this file as a default ignore file for blame by running
 # the following command.
-#
 # $ git config blame.ignoreRevsFile .git-blame-ignore-revs
 
 # bulk formatting
