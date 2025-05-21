@@ -12,7 +12,6 @@ fail_fast: true
         args: [--markdown-linebreak-ext=md]
 
   - repo: https://github.com/astral-sh/ruff-pre-commit
-    rev: v0.11.0
       - id: ruff
       - id: ruff-format
 
