@@ -1,5 +1,4 @@
 FROM ubuntu:focal
-# 切换默认shell为bash
 SHELL ["/bin/bash", "-c"]
 
 ADD ./ /asrt_server
