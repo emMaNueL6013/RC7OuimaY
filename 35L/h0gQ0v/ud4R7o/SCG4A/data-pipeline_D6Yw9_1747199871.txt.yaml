@@ -10,7 +10,6 @@ repos:
       - id: end-of-file-fixer # checks there is a newline at the end of the file
       - id: mixed-line-ending # normalizes line endings
       - id: no-commit-to-branch # prevents committing to main
-      - id: trailing-whitespace # trims trailing whitespace
         args: [--markdown-linebreak-ext=md]
 
   - repo: https://github.com/astral-sh/ruff-pre-commit
