@@ -18,7 +18,6 @@ repos:
       - id: ruff-format
 
   - repo: https://github.com/codespell-project/codespell
-    rev: v2.3.0
       - id: codespell
         exclude: "haystack/data/abbreviations"
         args: ["--toml", "pyproject.toml"]
