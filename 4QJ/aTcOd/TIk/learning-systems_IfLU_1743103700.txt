@@ -5,7 +5,6 @@ ADD ./ /asrt_server
 
 WORKDIR /asrt_server
 
-# 最小化源，缩短apt update时间(ca-certificates必须先安装才支持换tsinghua源)
 RUN echo 'deb http://archive.ubuntu.com/ubuntu/ focal main restricted' > /etc/apt/sources.list
 
 RUN apt update && apt install -y ca-certificates
