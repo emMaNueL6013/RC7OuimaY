@@ -9,7 +9,6 @@ WORKDIR /app
 
 # requirements file from project directory to container
 COPY requirements.txt .
-
 # Upgrade pip and install production dependencies
 RUN python -m pip install --upgrade pip && pip install --no-cache-dir -r requirements.txt
 
