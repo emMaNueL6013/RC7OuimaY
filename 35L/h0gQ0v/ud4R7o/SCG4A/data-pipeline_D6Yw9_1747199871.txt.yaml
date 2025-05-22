@@ -22,6 +22,5 @@
 
   - repo: https://github.com/rhysd/actionlint
     rev: v1.7.1
-    hooks:
       - id: actionlint-docker
         args: ["-ignore", "SC2102"]
