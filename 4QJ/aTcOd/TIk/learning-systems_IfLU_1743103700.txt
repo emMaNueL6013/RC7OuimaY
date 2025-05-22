@@ -3,7 +3,6 @@ SHELL ["/bin/bash", "-c"]
 
 ADD ./ /asrt_server
 
-WORKDIR /asrt_server
 
 RUN echo 'deb http://archive.ubuntu.com/ubuntu/ focal main restricted' > /etc/apt/sources.list
 
